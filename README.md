@@ -80,6 +80,7 @@
     > To do so, add this line to your `~/.path` file, before the `export PATH` line…
     
     > We also need to tell npm where to find the Xcode Command Line Tools…
+    
     > —https://github.com/nicolashery/mac-dev-setup#nodejs
 13. Install global NPM modules:
 
