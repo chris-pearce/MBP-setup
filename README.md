@@ -9,7 +9,7 @@
 	- Internet Accounts.
 	- Sharing: change Computer Name.
 3. Secure the **Safari Browser**:
-	> First, choose **Safari ⟶ Preferences ⟶ General** and deselect the option Open “safe” files after downloading.
+	> First, choose **Safari ⟶ Preferences ⟶ General** and deselect the option: **Open “safe” files after downloading**.
 	
 	> Then, check the plug-in settings. Go to **Safari ⟶ Preferences ⟶ Security ⟶ Plug-in Settings…** and review the plug-ins and settings.
 4. Install **Xcode Command Line Tools**: 
