@@ -104,55 +104,55 @@
 17. Create a `.npmrc` file in your home directory (get from Dropbox or previous MacBook).
 
 ## Applications
-- **SizeUp:**
+- **SizeUp**
 
     ```bash
     brew cask install sizeup
     ```
 
     _Get license from **1Password**_
-- **Wunderlist:**
+- **Wunderlist**
 
     _Get from **App Store**_
-- **Slack:**
+- **Slack**
 
     ```bash
     brew cask install slack
     ```
-- **Spotify:**
+- **Spotify**
 
     ```bash
     brew cask install spotify
     ```
-- **Sketch:**
+- **Sketch**
 
     ```bash
     brew cask install sketch
     ```
-- **Skype:**
+- **Skype**
 
     ```bash
     brew cask install skype
     ```
-- **VLC:**
+- **VLC**
 
     ```bash
     brew cask install vlc
     ```
-- **Dropbox:**
+- **Dropbox**
 
     ```bash
     brew cask install dropbox
     ```
-- **MacDown:**
+- **MacDown**
 
     ```bash
     brew cask install macdown
     ```
-- **1Password:**
+- **1Password**
 
     _[Download from Web](https://agilebits.com/downloads) and load the `1Password.agilekeychain` file from Dropbox when logging in_
-- **LICEcap:**
+- **LICEcap**
 
     _[Download from Web](http://www.cockos.com/licecap/)_
 
