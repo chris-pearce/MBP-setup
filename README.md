@@ -84,12 +84,16 @@
     > —https://github.com/nicolashery/mac-dev-setup#nodejs
 13. Install global NPM modules:
 
-	```bash
+    ```bash
     npm install -g grunt-cli
     ```
   
     ```bash
     npm install --global gulp-cli
+    ```
+    
+    ```bash
+    npm i -g postcss-cli
     ```
 14. Install **Sass**:
 
