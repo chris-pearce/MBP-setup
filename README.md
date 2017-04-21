@@ -159,6 +159,14 @@
 - **LICEcap**
 
     _[Download from Web](http://www.cockos.com/licecap/)_
+    
+- **Finder**
+
+    ```bash
+    sudo find / -name .DS_Store -delete; killall Finder
+    ```
+    
+    _To make **View ⇒ Show View Options** persist across all of Finder._
 
 ## Symlinks
 ### Dot files
