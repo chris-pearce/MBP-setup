@@ -189,8 +189,3 @@ ln -s ~/.npmrc ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```bash
 ln -s ~/git-completion.bash ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
-### Sublime Text configuration files
-
-```bash
-ln -s ~/Library/Application Support/Sublime Text 3/Packages/User ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Sublime Text/User
-```
