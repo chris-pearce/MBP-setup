@@ -53,7 +53,7 @@
 	- Create a `.bash_profile` file in your home directory (get from Dropbox or previous MacBook).
 	- In the Terminal do: `bash-it enable alias all`.
 9. Install **rbenv**, best bet is following [this guide](https://gist.github.com/r-brown/a0b50d56cfb3596e0d17) especially if you want **Jekyll**.
-10. Install fonts from previous **Font Book** esp. [**Fantasque Sans Mono**](https://github.com/belluzj/fantasque-sans).
+10. Install fonts from previous **Font Book** esp. [**Fira Code**](https://github.com/tonsky/FiraCode).
 11. Install **Sublime Text**:
 
 	```bash
