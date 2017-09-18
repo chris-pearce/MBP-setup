@@ -95,10 +95,6 @@
 	```bash
     sudo gem install sass
     ```
-15. Sync **Dropbox**, then:
-	- [Symlink dot files](#dot-files).
-	- [Symlink Sublime Text configuration files](#sublime-text-configuration-files).
-	- Ignore `npm_modules` folders.
 16. Generate a new SSH key for GitHub by following [these steps](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key).
 17. Create a `.npmrc` file in your home directory (get from Dropbox or previous MacBook).
 
@@ -143,6 +139,10 @@
     ```bash
     brew cask install dropbox
     ```
+    
+    Sync **Dropbox**, then:
+	- [Symlink dot files](#dot-files).
+	- Ignore `npm_modules` folders.
 - **MacDown**
 
     ```bash
