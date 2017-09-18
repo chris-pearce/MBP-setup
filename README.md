@@ -177,9 +177,5 @@ ln -s ~/.gitconfig ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
 
 ```bash
-ln -s ~/.npmrc ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
-```
-
-```bash
 ln -s ~/git-completion.bash ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
