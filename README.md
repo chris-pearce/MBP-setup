@@ -84,7 +84,7 @@
     ```
   
     ```bash
-    npm install --global gulp-cli
+    npm install -g gulp-cli
     ```
     
     ```bash
