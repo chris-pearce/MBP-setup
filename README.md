@@ -54,17 +54,12 @@
 	- In the Terminal do: `bash-it enable alias all`.
 9. Install **rbenv**, best bet is following [this guide](https://gist.github.com/r-brown/a0b50d56cfb3596e0d17) especially if you want **Jekyll**.
 10. Install fonts from previous **Font Book** esp. [**Fira Code**](https://github.com/tonsky/FiraCode).
-11. Install **Sublime Text**:
+11. Install **Visual Studio Code**:
 
-	```bash
-    brew cask install sublime-text
+    ```bash
+    brew cask install visual-studio-code
     ```
-    - Enter license key, if you don't have one, [see here](http://appnee.com/sublime-text-3-universal-license-keys-collection-for-win-mac-linux/).
-    - Install config files (get from Dropbox or previous MacBook).
-    - If Sublime Text throws an error about **Snappy light** theme, do this:
-        - Install **Snappy light** theme via Package Control: **Colorsublime**.
-        - Copy `snappy-light (SL).thTheme` into `SublimeLinter` folder then update `"color_scheme"` in **Preferences ⟶ Settings**.
-    - Update **SublimeLinter** settings file in Sublime Text (get `SublimeLinter.sublime-settings` from Dropbox or previous MacBook).
+    - Install the [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension then do `CMD + SHIFT + P` ⟶ `Sync: Download Settings` (get the **Personal access token** from Dropbox).
 12. Install **Node**:
 
 	```bash
