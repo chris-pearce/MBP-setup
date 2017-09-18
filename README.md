@@ -144,7 +144,7 @@
     ```
 - **1Password**
 
-    _[Download from Web](https://agilebits.com/downloads) and load the `1Password.agilekeychain` file from Dropbox when logging in_
+    _[Download from Web](https://agilebits.com/downloads) and download the `1Password.agilekeychain` folder from Dropbox. Once installed copy the `1Password.agilekeychain` file from **Downloads** to **Dropbox ⟶ Documents**.
 - **LICEcap**
 
     _[Download from Web](http://www.cockos.com/licecap/)_
