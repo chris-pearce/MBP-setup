@@ -96,6 +96,7 @@
     sudo gem install sass
     ```
 16. Generate a new SSH key for GitHub by following [these steps](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key).
+17. Apply correct keyboard access for the Mac by following [these steps](https://support.apple.com/en-us/HT204434).
 
 ## Applications
 - **Dropbox**
@@ -155,7 +156,7 @@
     sudo find / -name .DS_Store -delete; killall Finder
     ```
     
-    _Makes **View ⇒ Show View Options** persist across all of Finder._
+    _Makes **View ⟶ Show View Options** persist across all of Finder._
 
 ## Symlinks
 ### Dot files
