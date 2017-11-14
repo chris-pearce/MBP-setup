@@ -59,7 +59,8 @@
     ```bash
     brew cask install visual-studio-code
     ```
-    - Install the [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension then do `CMD + SHIFT + P` ⟶ `Sync: Download Settings` (get the **Personal access token** from Dropbox).
+    - Install the [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension then do `CMD + SHIFT + P` ⟶ `Sync: Download Settings` ⟶ enter the id (last part) of your GitHub Gist URL.
+    - `CMD + SHIFT + P` ⟶ `Sync: Update / Upload Settings` ⟶ generate a new token.
 12. Install **Node**:
 
 	```bash
