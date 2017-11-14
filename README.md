@@ -162,21 +162,21 @@
 ### Dot files
 
 ```bash
-ln -s ~/.bash_profile ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
+ln -s ~/.bash_profile ~/Dropbox/FED/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
 
 ```bash
-ln -s ~/.bash_login ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
+ln -s ~/.bash_login ~/Dropbox/FED/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
 
 ```bash
-ln -s ~/.bashrc ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
+ln -s ~/.bashrc ~/Dropbox/FED/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
 
 ```bash
-ln -s ~/.gitconfig ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
+ln -s ~/.gitconfig ~/Dropbox/FED/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
 
 ```bash
-ln -s ~/git-completion.bash ~/Dropbox/Documents/Mac\ OS\ X\ dev\ setup/Dot\ files/
+ln -s ~/git-completion.bash ~/Dropbox/FED/Mac\ OS\ X\ dev\ setup/Dot\ files/
 ```
