@@ -105,9 +105,7 @@
     brew cask install dropbox
     ```
     
-    Sync **Dropbox**, then:
-	- [Symlink dot files](#dot-files).
-	- Ignore `npm_modules` folders.
+    Sync **Dropbox**, then [Symlink dot files](#dot-files).
 - **SizeUp**
 
     ```bash
