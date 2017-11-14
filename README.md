@@ -84,7 +84,11 @@
 	```bash
     sudo gem install sass
     ```
-16. Generate a new SSH key for GitHub by following [these steps](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key).
+16. Generate a new SSH key for GitHub by following [these steps](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key), after completing the steps run this command:
+
+    ```bash
+    ssh-keyscan github.com >> ~/.ssh/known_hosts
+    ```
 17. Apply correct keyboard access for the Mac by following [these steps](https://support.apple.com/en-us/HT204434).
 
 ## Applications
