@@ -61,7 +61,7 @@
     ```
     - Install the [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension.
     - `CMD + SHIFT + P` ⟶ `Sync: Download Settings` ⟶ enter the id (last part) of your GitHub Gist URL.
-    - `CMD + SHIFT + P` ⟶ `Sync: Update / Upload Settings` ⟶ in GitHub generate a new **Personal access token** under **code_sync — gist** or get existing token from 1Password.
+    - `CMD + SHIFT + P` ⟶ `Sync: Update / Upload Settings` ⟶ in GitHub generate a new **Personal access token** under **code_sync — gist** or get existing token from 1Password.
 12. Install **Node**:
 
     ```bash
