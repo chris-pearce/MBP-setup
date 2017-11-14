@@ -43,15 +43,15 @@
     - [Install colour schemes](http://iterm2colorschemes.com/).
 8. Install **Bash-it**:
 
-	```bash
+    ```bash
     git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
     ```
   
     ```bash
-    ~/.bash_it/install.sh
+    ~/.bash_it/install.sh --interactive
     ```
 	- Create a `.bash_profile` file in your home directory (get from Dropbox or previous MacBook).
-	- In the Terminal do: `bash-it enable alias all`.
+	- In the Terminal do: `bash-it enable alias all` and `bash-it enable completion all.
 9. Install **rbenv**, best bet is following [this guide](https://gist.github.com/r-brown/a0b50d56cfb3596e0d17) especially if you want **Jekyll**.
 10. Install fonts from previous **Font Book** esp. [**Fira Code**](https://github.com/tonsky/FiraCode).
 11. Install **Visual Studio Code**:
