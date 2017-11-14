@@ -79,6 +79,11 @@
     ```bash
     npm i -g postcss-cli
     ```
+14. Install **Yarn**:
+
+    ```bash
+    brew install yarn
+    ```
 14. Install **Sass**:
 
 	```bash
