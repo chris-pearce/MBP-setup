@@ -63,26 +63,14 @@
     - `CMD + SHIFT + P` ⟶ `Sync: Update / Upload Settings` ⟶ generate a new token.
 12. Install **Node**:
 
-	```bash
+    ```bash
     brew update
     ```
   
     ```bash
     brew install node
     ```
-  
-    Not sure if this is necassary anymore?
-		
-    > To do so, add this line to your `~/.path` file, before the `export PATH` line…
-    
-    > We also need to tell npm where to find the Xcode Command Line Tools…
-    
-    > —https://github.com/nicolashery/mac-dev-setup#nodejs
 13. Install global NPM modules:
-
-    ```bash
-    npm install -g grunt-cli
-    ```
   
     ```bash
     npm install -g gulp-cli
@@ -132,11 +120,6 @@
     ```bash
     brew cask install sketch
     ```
-- **Skype**
-
-    ```bash
-    brew cask install skype
-    ```
 - **MacDown**
 
     ```bash
@@ -148,14 +131,6 @@
 - **LICEcap**
 
     _[Download from Web](http://www.cockos.com/licecap/)_
-    
-- **Finder**
-
-    ```bash
-    sudo find / -name .DS_Store -delete; killall Finder
-    ```
-    
-    _Makes **View ⟶ Show View Options** persist across all of Finder._
 
 ## Symlinks
 ### Dot files
