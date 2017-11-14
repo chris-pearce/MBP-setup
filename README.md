@@ -88,6 +88,15 @@
 17. Apply correct keyboard access for the Mac by following [these steps](https://support.apple.com/en-us/HT204434).
 
 ## Applications
+- **Browsers**
+  
+    ```bash
+    brew cask install google-chrome
+    ```
+
+    ```bash
+    brew cask install firefox
+    ```
 - **Dropbox**
 
     ```bash
