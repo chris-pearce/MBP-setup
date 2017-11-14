@@ -77,7 +77,7 @@
     ```
     
     ```bash
-    npm i -g postcss-cli
+    npm install -g postcss-cli
     ```
 14. Install **Yarn**:
 
