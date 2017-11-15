@@ -8,6 +8,7 @@
 	- iCloud.
 	- Internet Accounts.
 	- Dock.
+	- Notifications.
 	- Sharing: change Computer Name.
 3. Secure the **Safari Browser**:
 	> First, choose **Safari ⟶ Preferences ⟶ General** and deselect the option: **Open “safe” files after downloading**.
