@@ -147,7 +147,10 @@
     ```
 - **1Password**
 
-    _[Download from Web](https://agilebits.com/downloads) and download the `1Password.agilekeychain` folder from Dropbox. Once installed copy the `1Password.agilekeychain` file from **Downloads** to **Dropbox ⟶ Documents**._
+    - _[Download from Web](https://agilebits.com/downloads) 
+    - Choose **Sync using Dropbox** option and select the `1Password.agilekeychain` file found here **Dropbox ⟶ Documents**._
+    - Add license by selecting **Software Licences** and choosing the **1Password** license, then go to attachments and choose **open**.
+    - Add any additional accounts (see **Secure Notes** for any credentials).
 - **LICEcap**
 
     _[Download from Web](http://www.cockos.com/licecap/)_
