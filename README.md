@@ -82,6 +82,10 @@
     ```bash
     npm install -g postcss-cli
     ```
+    
+    ```bash
+    npm install -g flow-bin
+    ```
 14. Install **Yarn**:
 
     ```bash
