@@ -147,7 +147,7 @@
     ```
 - **1Password**
 
-    - _[Download from Web](https://agilebits.com/downloads) 
+    - _[Download from Web](https://agilebits.com/downloads)_ 
     - Choose **Sync using Dropbox** option and select the `1Password.agilekeychain` file found here **Dropbox ⟶ Documents**._
     - Add license by selecting **Software Licences** and choosing the **1Password** license, then go to attachments and choose **open**.
     - Add any additional accounts (see **Secure Notes** for any credentials).
