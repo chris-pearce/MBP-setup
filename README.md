@@ -26,6 +26,7 @@
     ```
 	
     - Create a `.bash_login` file in your home directory (get from Dropbox or previous MacBook).
+    - In the Terminal do: `brew install brew-cask-completion`.
 6. Install **Git**:
 
 	```bash
