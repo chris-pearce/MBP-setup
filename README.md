@@ -151,6 +151,11 @@
     ```bash
     brew cask install macdown
     ```
+- **Insomnia**
+
+    ```bash
+    brew cask install insomnia
+    ```
 - **1Password**
 
     - _[Download from Web](https://agilebits.com/downloads)_ 
