@@ -65,19 +65,12 @@
     ```bash
     brew install node
     ```
-13. Install global NPM modules:
-    
-    ```bash
-    npm install -g postcss-cli
-    ```
-    
-    ```bash
-    npm install -g flow-bin
-    ```
-14. Install **Yarn**:
+14. Install **Yarn** and global packages:
 
     ```bash
     brew install yarn
+    
+    yarn global add flow-bin
     ```
 14. Install **Sass**:
 
