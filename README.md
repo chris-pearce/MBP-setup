@@ -36,14 +36,6 @@
     - Create a `.gitconfig` file in your home directory (get from Dropbox or previous MacBook).
     - Create a `git-completion.bash` file in your home directory (get from Dropbox or previous MacBook).
     - Create a `.bashrc` file in your home directory (get from Dropbox or previous MacBook).
-7. Install **iTerm**:
-
-	```bash
-    brew install Caskroom/cask/iterm2
-    ```
-    
-    - Apply preferences (see preferences from previous iTerm).
-    - [Install colour schemes](http://iterm2colorschemes.com/).
 8. Install **Bash-it**:
 
     ```bash
@@ -75,10 +67,6 @@
     brew install node
     ```
 13. Install global NPM modules:
-  
-    ```bash
-    npm install -g gulp-cli
-    ```
     
     ```bash
     npm install -g postcss-cli
@@ -128,9 +116,6 @@
     ```
 
     _Get license from **1Password**_
-- **Wunderlist**
-
-    _Get from **App Store**_
 - **Slack**
 
     ```bash
