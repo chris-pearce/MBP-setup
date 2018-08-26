@@ -133,6 +133,11 @@
     ```bash
     brew cask install insomnia
     ```
+- **WhatsApp**
+
+    ```bash
+    brew cask install whatsapp
+    ```
 - **1Password**
 
     - _[Download from Web](https://agilebits.com/downloads)_ 
