@@ -17,5 +17,10 @@ defaults write com.apple.finder QuitMenuItem -bool true
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
+# Finder: set Home folder as the default location for new Finder windows
+# For other paths, use `PfLo` and `file:///full/path/here/`
+defaults write com.apple.finder NewWindowTarget -string "PfLo"
+defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
+
 # TextEdit: set tab width to 4 instead of the default 8
 defaults write com.apple.TextEdit "TabWidth" '4'
