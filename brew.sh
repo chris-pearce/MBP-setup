@@ -8,7 +8,6 @@ brew upgrade --all
 
 # Install Bash 4.
 brew install bash
-brew tap homebrew/versions
 brew install bash-completion2
 # We installed the new shell, now we have to activate it
 echo "Adding the newly installed shell to the list of allowed shells"
@@ -73,7 +72,7 @@ brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" sizeup
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins.
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
-
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
+        
 # Remove outdated versions from the cellar.
 brew cleanup
