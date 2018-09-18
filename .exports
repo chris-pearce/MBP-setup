@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Make VS Code the default editor.
 #export EDITOR='/usr/local/bin/code -w';
 
