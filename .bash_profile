@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+# Add Homebrew `/usr/local/bin` and User `~/bin` to the `$PATH`
+PATH=/usr/local/bin:$PATH
+PATH=$HOME/bin:$PATH
+export PATH
 
 # Load the shell dotfiles, and then some:
 for file in ~/.{bash_prompt,exports,aliases,functions,extra}; do
