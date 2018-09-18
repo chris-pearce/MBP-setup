@@ -8,6 +8,9 @@ osascript -e 'tell application "System Preferences" to quit'
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
+# General: enable repeating keys by pressing and holding down keys
+defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+
 # Bluetooth: increase sound quality for headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
