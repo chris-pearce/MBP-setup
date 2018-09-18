@@ -40,35 +40,19 @@ brew install tree
 brew install pandoc
 
 # Install Casks
-
-# Editors and Terminals.
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="/Applications" visual-studio-code
 brew cask install --appdir="/Applications" macdown
-
-# VM's.
 brew cask install --appdir="/Applications" virtualbox
 #brew install docker
-
-# Browsers.
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
-
-# Messaging.
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" whatsapp
-
-# Storage and Security.
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" 1password
-
-# Design.
 brew cask install --appdir="/Applications" sketch
-
-# Music and Video.
 brew cask install --appdir="/Applications" spotify
-
-# Misc.
 brew cask install --appdir="/Applications" sizeup
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins.
