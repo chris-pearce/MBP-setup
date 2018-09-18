@@ -4,11 +4,11 @@
 # settings we’re about to change
 osascript -e 'tell application "System Preferences" to quit'
 
-# Expand save panel by default
+# General: expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode2 -bool true
 
-# Increase sound quality for Bluetooth headphones/headsets
+# Bluetooth: increase sound quality for headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
