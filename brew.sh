@@ -55,6 +55,12 @@ brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" sizeup
 
+# Fonts
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
+brew cask install font-inconsolata
+brew cask install font-oldenburg
+
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins.
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
         
