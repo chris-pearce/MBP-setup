@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Make VS Code the default editor.
-#export EDITOR='/usr/local/bin/code -w';
+export EDITOR='/usr/local/bin/code -w';
 
 # Enable persistent REPL history for `node`.
 NODE_REPL_HISTORY_FILE=~/.node_history;
