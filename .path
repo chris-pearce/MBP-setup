@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-
-# See: https://github.com/mathiasbynens/dotfiles#specify-the-path
-
-export PATH="/usr/local/bin:$PATH"
