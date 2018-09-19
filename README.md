@@ -39,10 +39,10 @@
 - [Install Homebrew and Formulae](#install-homebrew-and-formulae)
   - [Install](#install)
   - [Formulae](#formulae)
-- [Set Default App for File Types](#set-default-app-for-file-types)
-  - [Mappings](#mappings)
 - [Sync Dropbox](#sync-dropbox)
 - [Install Non-Homebrew Applications](#install-non-homebrew-applications)
+- [Set Default App for File Types](#set-default-app-for-file-types)
+  - [Mappings](#mappings)
 - [Create GitHub SSH Key](#create-github-ssh-key)
 - [Install NVM](#install-nvm)
 - [Configure Visual Studio Code](#configure-visual-studio-code)
@@ -314,6 +314,16 @@ $ cd
 $ source brew.sh
 ```
 
+## Sync Dropbox
+
+_…and go shopping or something 🙂._
+
+## Install Non-Homebrew Applications
+
+- **App Store:**
+  - [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
+  - [Monosnap](https://itunes.apple.com/au/app/monosnap-screenshot-editor/id540348655?mt=12).
+
 ## Set Default App for File Types
 
 1. In Finder, right click on a file that uses the type you'd like to change the
@@ -328,16 +338,6 @@ $ source brew.sh
 - Dotfiles: **Visual Studio Code**.
 - Markdown files (`.md`): **MacDown**.
 - Shell scripts (`.sh`): **Visual Studio Code**.
-
-## Sync Dropbox
-
-_…and go shopping or something 🙂._
-
-## Install Non-Homebrew Applications
-
-- **App Store:**
-  - [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
-  - [Monosnap](https://itunes.apple.com/au/app/monosnap-screenshot-editor/id540348655?mt=12).
 
 ## Create GitHub SSH Key
 
@@ -354,6 +354,8 @@ _…and go shopping or something 🙂._
 - [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 
 ## Install NVM
+
+_Coming soon…_
 
 ## Configure Visual Studio Code
 
