@@ -16,7 +16,7 @@ alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 
-# Shorter commands for `Homebrew`
+# Shorter commands for Homebrew
 alias brewd="brew doctor"
 alias brewi="brew install"
 alias brewr="brew uninstall"
@@ -55,7 +55,8 @@ alias week='date +%V'
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
-# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
+# Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and
+# their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 # IP addresses
@@ -117,13 +118,12 @@ alias spotoff="sudo mdutil -a -i off"
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"
 
-# Ring the terminal bell, and put a badge on Terminal.app’s Dock icon
-# (useful when executing time-consuming commands)
+# Ring the terminal bell, and put a badge on Terminal.app’s Dock icon (useful
+# when executing time-consuming commands)
 alias badge="tput bel"
 
-# Intuitive map function
-# For example, to list all directories that contain a certain file:
-# find . -name .gitattributes | map dirname
+# Intuitive map function For example, to list all directories that contain a
+# certain file: find . -name .gitattributes | map dirname
 alias map="xargs -n1"
 
 # One of @janmoesen’s ProTip™s
@@ -141,7 +141,7 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
-# Reload the shell (i.e. invoke as a login shell)
+# Reload the shell (i.e., invoke as a login shell)
 alias reload="exec $SHELL -l"
 
 # Open host file

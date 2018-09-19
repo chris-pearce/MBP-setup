@@ -2,7 +2,7 @@
 
 # Shell prompt based on the Solarized Dark theme.
 # Screenshot: http://i.imgur.com/EkEtphC.png
-# Heavily inspired by @necolas’s prompt: https://github.com/necolas/dotfiles
+# Heavily inspired by @necolas’s prompt: https://github.com/necolas/dotfiles.
 # iTerm → Profiles → Text → use 13pt Monaco with 1.1 vertical spacing.
 
 if [[ $COLORTERM = gnome-* && $TERM = xterm ]] && infocmp gnome-256color >/dev/null 2>&1; then
@@ -15,40 +15,39 @@ prompt_git() {
     local s='';
     local branchName='';
 
-    # Check if the current directory is in a Git repository.
+    # Check if the current directory is in a Git repository
     if [ $(git rev-parse --is-inside-work-tree &>/dev/null; echo "${?}") == '0' ]; then
 
-        # check if the current directory is in .git before running git checks
+        # Check if the current directory is in .git before running git checks
         if [ "$(git rev-parse --is-inside-git-dir 2> /dev/null)" == 'false' ]; then
 
-            # Ensure the index is up to date.
+            # Ensure the index is up to date
             git update-index --really-refresh -q &>/dev/null;
 
-            # Check for uncommitted changes in the index.
+            # Check for uncommitted changes in the index
             if ! $(git diff --quiet --ignore-submodules --cached); then
                 s+='+';
             fi;
 
-            # Check for unstaged changes.
+            # Check for unstaged changes
             if ! $(git diff-files --quiet --ignore-submodules --); then
                 s+='!';
             fi;
 
-            # Check for untracked files.
+            # Check for untracked files
             if [ -n "$(git ls-files --others --exclude-standard)" ]; then
                 s+='?';
             fi;
 
-            # Check for stashed files.
+            # Check for stashed files
             if $(git rev-parse --verify refs/stash &>/dev/null); then
                 s+='$';
             fi;
 
         fi;
 
-        # Get the short symbolic ref.
-        # If HEAD isn’t a symbolic ref, get the short SHA for the latest commit
-        # Otherwise, just give up.
+        # Get the short symbolic ref. If `HEAD` isn’t a symbolic ref, get the
+        # short SHA for the latest commit Otherwise, just give up.
         branchName="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
             git rev-parse --short HEAD 2> /dev/null || \
             echo '(unknown)')";
@@ -65,7 +64,7 @@ if tput setaf 1 &> /dev/null; then
     tput sgr0; # reset colors
     bold=$(tput bold);
     reset=$(tput sgr0);
-    # Solarized colors, taken from http://git.io/solarized-colors.
+    # Solarized colors, taken from http://git.io/solarized-colors
     black=$(tput setaf 0);
     blue=$(tput setaf 33);
     cyan=$(tput setaf 37);
@@ -91,21 +90,21 @@ else
     yellow="\e[1;33m";
 fi;
 
-# Highlight the user name when logged in as root.
+# Highlight the user name when logged in as root
 if [[ "${USER}" == "root" ]]; then
     userStyle="${red}";
 else
     userStyle="${orange}";
 fi;
 
-# Highlight the hostname when connected via SSH.
+# Highlight the hostname when connected via SSH
 if [[ "${SSH_TTY}" ]]; then
     hostStyle="${bold}${red}";
 else
     hostStyle="${yellow}";
 fi;
 
-# Set the terminal title to the current working directory.
+# Set the terminal title to the current working directory
 PS1="\[\033]0;\w\007\]";
 PS1+="\[${bold}\]\n"; # newline
 PS1+="\[${userStyle}\]\u"; # username

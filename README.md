@@ -1,5 +1,9 @@
 # MBP setup <!-- omit in toc -->
 
+Just a heads up, this setup is obviously very tailored to what works for me.
+Therefore, it's advisable to fork this repo so you can tweak it to suit your
+needs, especially the dotfiles and shell scripts 🙂.
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Install Dotfiles and Shell Scripts](#install-dotfiles-and-shell-scripts)
@@ -53,10 +57,8 @@
 
 ## Install Dotfiles and Shell Scripts
 
-**📣 It's advisable to fork this repo so you can tweak the dotfiles and shell scripts to suit your
-needs.**
-
-Run these commands to install:
+Run these commands to install but make sure to swap out the repository URL (in
+**step 2**) for your forked repository URL:
 
 1. `cd ~/Projects`
 2. `git clone https://github.com/chris-pearce/MBP-setup.git`
@@ -76,12 +78,12 @@ Each file is well commented to help understand what's going on.
 ### Updating
 
 **Important!** Don't update the files in your home folder. If you need to make any
-updates make them to the files in the folder where you cloned the repository (**step 1–3**
+updates then make them to the files in the folder where you cloned the repository (**step 1–3**
 above).
 
 Everytime you make an update to a dotfile and shell script file (except for
 `bootstrap.sh`) you'll need to run `source bootstrap.sh`. Additionally, `source bootstrap.sh`
-will automatically run when you pull changes from your forked remote repository.
+will automatically run when you pull changes from your remote repository.
 
 ### `.path` and `.extra`
 
@@ -108,7 +110,8 @@ will automatically run when you pull changes from your forked remote repository.
 ## Install macOS Defaults
 
 ```bash
-$ cd ~; source macos.sh
+$ cd ~
+$ source macos.sh
 ```
 
 ## Configure System Preferences

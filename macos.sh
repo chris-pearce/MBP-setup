@@ -20,14 +20,14 @@ defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 # Bluetooth: increase sound quality for headphones/headsets
 defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int 40
 
-# Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
+# Finder: allow quitting via `⌘ + Q;` doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
-# Finder: set Home folder as the default location for new Finder windows
-# For other paths, use `PfLo` and `file:///full/path/here/`
+# Finder: set Home folder as the default location for new Finder windows.
+# For other paths, use `PfLo` and `file:///full/path/here/`.
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
 
