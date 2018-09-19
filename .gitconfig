@@ -1,29 +1,25 @@
 [alias]
 
-	# Add files to the index
-	a = add
-
-	# View abbreviated SHA, description, and history graph of the latest 20
-	# commits
-	l = log --pretty=oneline -n 20 --graph --abbrev-commit
-
 	# View the current working tree status
 	s = status
 
-	# Pull in remote changes for the current repository and all its submodules
-	pu = !"git pull; git submodule foreach git pull origin master"
+	# Add files to the index
+	a = add
 
-	# Push to remote branch: X
-	ps = push origin
-
-	# Switch branches or restore working tree files
-	co = checkout
-
-	# Commit changes
+	# Add files to the index and commit
 	c = commit -a
 
 	# Undo commit
 	cu = reset HEAD~
+
+	# Switch branches or restore working tree files
+	co = checkout
+
+	# Pull in remote changes for the current repository and all its submodules
+	pull = !"git pull; git submodule foreach git pull origin master"
+
+	# Push to remote branch: X
+	push = push origin
 
 	# List branches
 	b = branch
@@ -42,6 +38,9 @@
 
 	# Clone a repository into a new directory including all submodules
   cl = clone --recursive
+
+	# View abbrev SHA, desc, and history graph of the latest 20 commits
+	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 	# Show the diff between the latest commit and the current state
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
