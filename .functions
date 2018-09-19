@@ -128,3 +128,13 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# `tre1` is a shorthand for `tree` with descend for 1 level of directories enabled.
+function tre1() {
+	tree -L 1;
+}
+
+# Copy with progress
+function cp_p() {
+  rsync -WavP --human-readable --progress $1 $2
+}

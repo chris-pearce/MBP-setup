@@ -9,12 +9,22 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
+alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
+
+# Shorter commands for `Homebrew`
+alias brewd="brew doctor"
+alias brewi="brew install"
+alias brewr="brew uninstall"
+alias brews="brew search"
+alias brewu="brew update \
+                && brew upgrade \
+                && brew cleanup \
+                && brew cask cleanup"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`

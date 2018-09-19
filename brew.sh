@@ -38,22 +38,32 @@ brew install rename
 brew install tree
 # https://pandoc.org
 brew install pandoc
+# https://github.com/rupa/z
+brew install z
+# https://tldr.sh/
+brew install tldr
+# https://github.com/rauchg/wifi-password
+brew install wifi-password
 
 # Install Casks
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="/Applications" visual-studio-code
 brew cask install --appdir="/Applications" macdown
 brew cask install --appdir="/Applications" virtualbox
-#brew install docker
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" whatsapp
 brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" sizeup
+brew cask install --appdir="/Applications" licecap
+
+# Cask versions
+brew tap homebrew/cask-versions
+# Have to install version 6 to satisfy license
+brew cask install --appdir="/Applications" 1password6
 
 # Fonts
 brew tap homebrew/cask-fonts
@@ -63,6 +73,6 @@ brew cask install font-oldenburg
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins.
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
-        
+
 # Remove outdated versions from the cellar.
 brew cleanup
