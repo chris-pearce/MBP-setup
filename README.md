@@ -113,8 +113,6 @@ $ cd ~; source macos.sh
 
 ## Configure System Preferences
 
-📣 _Eventually the following preferences will come from: **`macos.sh`**, see: https://github.com/chris-pearce/MBP-setup/issues/1._
-
 ### General
 
 - Select: **Ask to keep changes when closing documents**.
@@ -341,17 +339,11 @@ _…and go shopping or something 🙂._
 
 ## Configure GitHub SSH Key
 
-1. `$ ssh-keygen -t rsa -b 4096 -C "<your-email-address>"`
-2. `$ eval "$(ssh-agent -s)"`
-3. `$ ssh-add -K ~/.ssh/id_rsa`
-4. Copy public key to clipboard with this command: `pubkey`.
-5. Add key to GitHub Settings.
-6. `$ ssh-keyscan github.com >> ~/.ssh/known_hosts`.
-
-**Official documentation:**
-
-- [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key).
-- [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
+1. [Generating a new SSH key and adding it to the
+   ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)
+   _(make sure to do **step 2** in the **Adding your SSH key to the ssh-agent** section)_.
+2. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
+3. You might need to run this command: `$ ssh-keyscan github.com >> ~/.ssh/known_hosts`?
 
 ## Install NVM
 

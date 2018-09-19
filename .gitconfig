@@ -28,8 +28,8 @@
 	# Commit with a message
 	c = commit -m
 
-	# Commit all changes
-	ca = !git add -A && git commit -av
+	# Add all then commit with a message
+	ca = !git add A && git commit -m
 
 	# Undo commit
 	cu = reset HEAD~
