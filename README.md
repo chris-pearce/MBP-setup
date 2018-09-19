@@ -41,15 +41,15 @@
   - [Formulae](#formulae)
 - [Sync Dropbox](#sync-dropbox)
 - [Install Non-Homebrew Applications](#install-non-homebrew-applications)
-- [Set Default App for File Types](#set-default-app-for-file-types)
+- [Configure Default App for File Types](#configure-default-app-for-file-types)
   - [Mappings](#mappings)
-- [Create GitHub SSH Key](#create-github-ssh-key)
+- [Configure GitHub SSH Key](#configure-github-ssh-key)
 - [Install NVM](#install-nvm)
 - [Configure Visual Studio Code](#configure-visual-studio-code)
 - [Configure 1Password](#configure-1password)
 - [Install Dashboard Widgets](#install-dashboard-widgets)
-- [Install Symlinks](#install-symlinks)
-- [Credit](#credit)
+- [Configure Symlinks](#configure-symlinks)
+- [Credits](#credits)
 
 ## Install Dotfiles and Shell Scripts
 
@@ -324,7 +324,7 @@ _…and go shopping or something 🙂._
   - [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
   - [Monosnap](https://itunes.apple.com/au/app/monosnap-screenshot-editor/id540348655?mt=12).
 
-## Set Default App for File Types
+## Configure Default App for File Types
 
 1. In Finder, right click on a file that uses the type you'd like to change the
    default for.
@@ -339,7 +339,7 @@ _…and go shopping or something 🙂._
 - Markdown files (`.md`): **MacDown**.
 - Shell scripts (`.sh`): **Visual Studio Code**.
 
-## Create GitHub SSH Key
+## Configure GitHub SSH Key
 
 1. `$ ssh-keygen -t rsa -b 4096 -C "<your-email-address>"`
 2. `$ eval "$(ssh-agent -s)"`
@@ -383,11 +383,11 @@ _Coming soon…_
   - Bangkok.
 - Unit Converter.
 
-## Install Symlinks
+## Configure Symlinks
 
 - **`.extra`**: `ln -s ~/.extra ~/Dropbox/FED/Dotfiles`
 
-## Credit
+## Credits
 
 I couldn't put together my dotfiles and shell scripts without the awesome work of:
 
@@ -397,4 +397,6 @@ I couldn't put together my dotfiles and shell scripts without the awesome work o
 - [Paul Irish](http://paulirish.com/) and his [dotfiles repository](https://github.com/paulirish/dotfiles).
 - [Sourabh Bajaj](https://sourabhbajaj.com) and his [macOS Setup Guide](https://sourabhbajaj.com/mac-setup/).
 
-And anyone else who's been so kind to share their work out in the open. ❤️ open source.
+And anyone else who's been so kind to share their work out in the open.
+
+❤️ open source.
