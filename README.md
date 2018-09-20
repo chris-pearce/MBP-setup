@@ -348,7 +348,7 @@ _…and go shopping or something 🙂._
    ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)
    _(make sure to do **step 2** in the **Adding your SSH key to the ssh-agent** section)_.
 2. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
-3. You might need to run this command: `$ ssh-keyscan github.com >> ~/.ssh/known_hosts`?
+3. Run this command: `$ ssh-keyscan github.com >> ~/.ssh/known_hosts`.
 
 ## Install NVM
 
@@ -367,7 +367,8 @@ _Coming soon…_
 
 ## Configure 1Password
 
-1. Choose **Sync using Dropbox** option then select the **1Password.oppvault** from **Dropbox → Documents**.
+1. Choose **Sync using Dropbox** option then select the **1Password.oppvault**
+   file from **Dropbox → Documents**.
 2. Activate the license by double clicking the license file in: **Software
    Licences** → **1Password 6** → **attachments**.
 
