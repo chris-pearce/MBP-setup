@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Print all aliases in the Terminal for quick reference
+alias aliases="cat ~/.aliases"
+
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
@@ -154,4 +157,5 @@ alias path='echo -e ${PATH//:/\\n}'
 # Copy my public key to the pasteboard
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | printf '=> Public key copied to pasteboard.\n'"
 
-alias dotfiles="cd ~/Projects/MBP-setup; set -- -f; source bootstrap.sh; reload"
+# Load updated dotfiles from source location then reload the shell
+alias loaddotfiles="cd ~/Projects/MBP-setup; set -- -f; source bootstrap.sh; reload"
