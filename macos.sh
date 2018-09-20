@@ -39,3 +39,11 @@ defaults write com.apple.terminal StringEncodings -array 4
 
 # iTerm: don’t display the annoying prompt when quitting
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+# Chrome: disable the all too sensitive backswipe on trackpads
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+
+# Chrome: disable the all too sensitive backswipe on Magic Mouse
+defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls -bool false

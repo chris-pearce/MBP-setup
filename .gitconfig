@@ -1,6 +1,6 @@
 [alias]
 
-	# View the current working tree status
+  # View the current working tree status
 	s = status
 
 	# Add files to the index
@@ -39,7 +39,7 @@
 	# Clone a repository into a new directory including all submodules
   cl = clone --recursive
 
-	# View abbrev SHA, desc, and history graph of the latest 20 commits
+  # View abbrev SHA, desc, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 	# Show the diff between the latest commit and the current state

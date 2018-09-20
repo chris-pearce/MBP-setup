@@ -1,8 +1,7 @@
 # MBP setup <!-- omit in toc -->
 
-Just a heads up, this setup is obviously very tailored to what works for me.
-Therefore, it's advisable to fork this repo so you can tweak it to suit your
-needs, especially the dotfiles and shell scripts 🙂.
+Just a heads up, this setup is obviously very tailored to me. Therefore, it's
+probably best to fork this repository so you can tweak it to suit your needs 🙂.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -66,8 +65,9 @@ Run these commands to install but make sure to swap out the repository URL (in
 3. `cd MBP-setup`
 4. `source bootstrap.sh`
 
-**Steps 1–3** simply clone the repository to where you specify in **step 1** (can be anywhere
-you like). In **step 4**, the **`bootstrap.sh`** does the following:
+**Steps 1–3** simply clone the repository to where you specify in **step 1**
+(can be anywhere you like). In **step 4**, the **`bootstrap.sh`** does the
+following:
 
 1. Get's latest of the remote `master` branch.
 2. Copies (not symlinks) the dotfiles and relevant shell script files to your home folder.
@@ -78,13 +78,13 @@ Each file is well commented to help understand what's going on.
 
 ### Updating
 
-**Important!** Don't update the files in your home folder. If you need to make any
-updates then make them to the files in the folder where you cloned the repository (**step 1–3**
-above).
+**Important!** Don't update the files in your home folder. If you need to make
+any updates then make them to the files in the folder where you cloned the
+repository (**step 1–3** above).
 
 Everytime you make an update to a dotfile and shell script file (except for
-`bootstrap.sh`) you'll need to run `source bootstrap.sh`. Additionally, `source bootstrap.sh`
-will automatically run when you pull changes from your remote repository.
+`bootstrap.sh`) you'll need to run `source bootstrap.sh`. Additionally, `source bootstrap.sh` will automatically run when you pull changes from your remote
+repository.
 
 ### `.path` and `.extra`
 
@@ -344,8 +344,7 @@ _…and go shopping or something 🙂._
 
 ## Configure GitHub SSH Key
 
-1. [Generating a new SSH key and adding it to the
-   ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)
+1. [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)
    _(make sure to do **step 2** in the **Adding your SSH key to the ssh-agent** section)_.
 2. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 3. Run this command: `$ ssh-keyscan github.com >> ~/.ssh/known_hosts`.
@@ -375,10 +374,10 @@ _Coming soon…_
 ## Install Dashboard Widgets
 
 - **Worldclock:**
-  - Sydney.
+  - Bangkok.
   - Boston.
   - London.
-  - Bangkok.
+  - Sydney.
 - Unit Converter.
 
 ## Configure Symlinks

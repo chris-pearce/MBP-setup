@@ -8,7 +8,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
@@ -24,10 +23,10 @@ alias brewd="brew doctor"
 alias brewi="brew install"
 alias brewr="brew uninstall"
 alias brews="brew search"
-alias brewu="brew update \
-                && brew upgrade \
-                && brew cleanup \
-                && brew cask cleanup"
+alias brewu="brew update && brew upgrade && brew cleanup"
+
+# Launch often used online resources in Chrome
+alias fonts="open -a 'Google Chrome' https://github.com/Homebrew/homebrew-cask-fonts/tree/master/Casks"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
