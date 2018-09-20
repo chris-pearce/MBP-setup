@@ -45,6 +45,7 @@ needs, especially the dotfiles and shell scripts 🙂.
   - [Formulae](#formulae)
 - [Sync Dropbox](#sync-dropbox)
 - [Install Non-Homebrew Applications](#install-non-homebrew-applications)
+  - [App Store](#app-store-1)
 - [Configure Default App for File Types](#configure-default-app-for-file-types)
   - [Mappings](#mappings)
 - [Configure GitHub SSH Key](#configure-github-ssh-key)
@@ -321,9 +322,10 @@ _…and go shopping or something 🙂._
 
 ## Install Non-Homebrew Applications
 
-- **App Store:**
-  - [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
-  - [Monosnap](https://itunes.apple.com/au/app/monosnap-screenshot-editor/id540348655?mt=12).
+### App Store
+
+- [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
+- [Monosnap](https://itunes.apple.com/au/app/monosnap-screenshot-editor/id540348655?mt=12).
 
 ## Configure Default App for File Types
 
