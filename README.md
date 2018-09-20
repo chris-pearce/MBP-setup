@@ -279,7 +279,7 @@ Deselect the following items:
   - Deselect: **Open “safe” files after downloading**.
 - **Advanced:**
   - **Smart Search Field:**
-  - Select: **Show full website address**.
+    - Select: **Show full website address**.
   - Select: **Show Developer menu in menu bar**.
 
 ## Configure TextEdit
