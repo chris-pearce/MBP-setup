@@ -57,6 +57,7 @@ _Do the following in order…_
 - [Configure 1Password](#configure-1password)
 - [Install Dashboard Widgets](#install-dashboard-widgets)
 - [Configure Symlinks](#configure-symlinks)
+- [Lifesavers](#lifesavers)
 - [Credits](#credits)
 
 ## Install Dotfiles and Shell Scripts
@@ -406,6 +407,10 @@ brew install yarn --without-node
 ## Configure Symlinks
 
 - **`.extra`**: `ln -s ~/.extra ~/Dropbox/FED/Dotfiles`
+
+## Lifesavers
+
+- <https://code.visualstudio.com/docs/editor/integrated-terminal#_why-is-nvm-complaining-about-a-prefix-option-when-the-integrated-terminal-is-launched>
 
 ## Credits
 
