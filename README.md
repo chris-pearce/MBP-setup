@@ -330,6 +330,8 @@ _…and go shopping or something 🙂._
 
 ## Install Non-Homebrew Applications
 
+- [Apple Watch Screen Savers](http://www.rasmusnielsen.dk/applewatch/).
+
 ### App Store
 
 - [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
