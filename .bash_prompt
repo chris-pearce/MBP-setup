@@ -102,8 +102,8 @@ fi;
 # Set the terminal title to the current working directory
 PS1="\[\033]0;\w\007\]";
 PS1+="\[${userStyle}\]\u"; # username
-PS1+="\[${black}\] at ";
-PS1+="\[${hostStyle}\]\h"; # host
+#PS1+="\[${black}\] at ";
+#PS1+="\[${hostStyle}\]\h"; # host
 PS1+="\[${black}\] in ";
 PS1+="\[${cyan}\]\w"; # working directory
 PS1+="\$(prompt_git \"${black} on ${cyan}\")"; # Git repository details

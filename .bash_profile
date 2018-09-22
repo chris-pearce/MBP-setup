@@ -4,12 +4,20 @@
 export PATH="$HOME/bin:$PATH";
 
 # Load the shell dotfiles, and then some:
-# * ~/.path can be used to extend `$PATH`.
-# * ~/.extra can be used for other settings you don’t want to commit.
+# `* ~/.path` can be used to extend `$PATH`.
+# `* ~/.extra` can be used for other settings you don’t want to commit.
 for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
+
+# Load Node Version Manager (NVM) https://github.com/creationix/Nvm#installation
+# When NVM is installed it'll add the following 3 lines to the home folder's
+# `.bashrc` file, however, we keep it here which will remove the `.bashrc` file
+# additions.
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # this loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # this loads nvm bash_completion
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;

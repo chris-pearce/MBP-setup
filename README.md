@@ -3,6 +3,8 @@
 Just a heads up, this setup is obviously very tailored to me. Therefore, it's
 probably best to fork this repository so you can tweak it to suit your needs 🙂.
 
+_Do the following in order…_
+
 ## Table of Contents <!-- omit in toc -->
 
 - [Install Dotfiles and Shell Scripts](#install-dotfiles-and-shell-scripts)
@@ -49,6 +51,8 @@ probably best to fork this repository so you can tweak it to suit your needs �
   - [Mappings](#mappings)
 - [Configure GitHub SSH Key](#configure-github-ssh-key)
 - [Install NVM](#install-nvm)
+  - [Install Yarn](#install-yarn)
+    - [Add Global Packages](#add-global-packages)
 - [Configure Visual Studio Code](#configure-visual-studio-code)
 - [Configure 1Password](#configure-1password)
 - [Install Dashboard Widgets](#install-dashboard-widgets)
@@ -299,7 +303,10 @@ Deselect the following items:
 
 ```bash
 $ xcode-select --install
+$ sudo xcode-select --switch /Library/Developer/CommandLineTools # enable command line tools
 ```
+
+For the second command, [see here](https://github.com/nodejs/node-gyp/issues/569).
 
 ## Install Homebrew and Formulae
 
@@ -351,7 +358,23 @@ _…and go shopping or something 🙂._
 
 ## Install NVM
 
-_Coming soon…_
+1. `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
+2. Run: `source bootstrap.sh` (see: [Install Dotfiles and Shell Scripts →
+   Updating](#updating)). This'll override the `.bashrc` file in the home folder
+   that the script in **step 1** modified.
+3. Run: `command -v nvm` to confirm it installed, the output should be: `nvm`.
+4. Run: `cd ~` then `nvm install x` where `x` is whatever version is in the
+   `.nvmrc` file, e.g.: `nvm install 9.11.1`.
+
+### Install Yarn
+
+```bash
+brew install yarn --without-node
+```
+
+#### Add Global Packages
+
+- `yarn global add git-open`
 
 ## Configure Visual Studio Code
 
