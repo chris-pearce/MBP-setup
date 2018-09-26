@@ -52,6 +52,7 @@ brew cask install sketch
 brew cask install spotify
 brew cask install sizeup
 brew cask install licecap
+brew cask install docker
 
 # Cask versions
 brew tap homebrew/cask-versions
