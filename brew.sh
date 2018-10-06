@@ -26,6 +26,7 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install Binaries
+brew install bat
 brew install git
 brew install ack # https://beyondgrep.com
 brew install dark-mode # https://github.com/sindresorhus/dark-mode
@@ -64,6 +65,9 @@ brew tap homebrew/cask-fonts
 brew cask install font-fira-code
 brew cask install font-inconsolata
 brew cask install font-oldenburg
+brew cask install font-patua-one
+brew cask install font-lato
+brew cask install font-inter
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package

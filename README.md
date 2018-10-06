@@ -1,7 +1,6 @@
 # MBP setup <!-- omit in toc -->
 
-Just a heads up, this setup is obviously very tailored to me. Therefore, it's
-probably best to fork this repository so you can tweak it to suit your needs 🙂.
+Just a heads up, this setup is obviously very tailored to me. Therefore, it's probably best to fork this repository so you can tweak it to suit your needs 🙂.
 
 _Do the following in order…_
 
@@ -62,41 +61,31 @@ _Do the following in order…_
 
 ## Install Dotfiles and Shell Scripts
 
-Run these commands to install but make sure to swap out the repository URL (in
-**step 2**) for your forked repository URL:
+Run these commands to install but make sure to swap out the repository URL (in **step 2**) for your forked repository URL:
 
 1. `cd ~/Projects`
 2. `git clone https://github.com/chris-pearce/MBP-setup.git`
 3. `cd MBP-setup`
 4. `source bootstrap.sh`
 
-**Steps 1–3** simply clone the repository to where you specify in **step 1**
-(can be anywhere you like). In **step 4**, the **`bootstrap.sh`** does the
-following:
+**Steps 1–3** simply clone the repository to where you specify in **step 1** (can be anywhere you like). In **step 4**, the **`bootstrap.sh`** does the following:
 
 1. Get's latest of the remote `master` branch.
 2. Copies (not symlinks) the dotfiles and relevant shell script files to your home folder.
-3. Runs `source ~/.bash_profile` to load `.bash_profile` which in turn loads the
-   rest of the relevant dotfiles.
+3. Runs `source ~/.bash_profile` to load `.bash_profile` which in turn loads the rest of the relevant dotfiles.
 
 Each file is well commented to help understand what's going on.
 
 ### Updating
 
-**Important!** Don't update the files in your home folder. If you need to make
-any updates then make them to the files in the folder where you cloned the
-repository (**step 1–3** above).
+**Important!** Don't update the files in your home folder. If you need to make any updates then make them to the files in the folder where you cloned the repository (**step 1–3** above).
 
-Everytime you make an update to a dotfile and shell script file (except for
-`bootstrap.sh`) you'll need to run `source bootstrap.sh`. Additionally, `source bootstrap.sh` will automatically run when you pull changes from your remote
-repository.
+Everytime you make an update to a dotfile and shell script file (except for `bootstrap.sh`) you'll need to run `source bootstrap.sh`. Additionally, `source bootstrap.sh` will automatically run when you pull changes from your remote repository.
 
 ### `.path` and `.extra`
 
-- If `~/.path` exists, it'll be sourced along with the other files before any
-  feature testing takes place (such as detecting which version of `ls` is being used).
-- If `~/.extra` exists, it'll be sourced along with the other files. Use this to
-  add commands you don’t want to commit to a public repository (it's added to `.gitignore`).
+- If `~/.path` exists, it'll be sourced along with the other files before any feature testing takes place (such as detecting which version of `ls` is being used).
+- If `~/.extra` exists, it'll be sourced along with the other files. Use this to add commands you don’t want to commit to a public repository (it's added to `.gitignore`).
 
 ## Configure  → About This Mac
 
@@ -339,8 +328,7 @@ _…and go shopping or something 🙂._
 
 ## Configure Default App for File Types
 
-1. In Finder, right click on a file that uses the type you'd like to change the
-   default for.
+1. In Finder, right click on a file that uses the type you'd like to change the default for.
 2. Select: **Get Info** from the context menu.
 3. Navigate to the **Open with** section and select the app from the menu.
 4. Select: **Change All…**.
@@ -354,20 +342,16 @@ _…and go shopping or something 🙂._
 
 ## Configure GitHub SSH Key
 
-1. [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)
-   _(make sure to do **step 2** in the **Adding your SSH key to the ssh-agent** section)_.
+1. [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key) _(make sure to do **step 2** in the **Adding your SSH key to the ssh-agent** section)_.
 2. [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
 3. Run this command: `$ ssh-keyscan github.com >> ~/.ssh/known_hosts`.
 
 ## Install NVM
 
 1. `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
-2. Run: `source bootstrap.sh` (see: [Install Dotfiles and Shell Scripts →
-   Updating](#updating)). This'll override the `.bashrc` file in the home folder
-   that the script in **step 1** modified.
+2. Run: `source bootstrap.sh` (see: [Install Dotfiles and Shell Scripts → Updating](#updating)). This'll override the `.bashrc` file in the home folder that the script in **step 1** modified.
 3. Run: `command -v nvm` to confirm it installed, the output should be: `nvm`.
-4. Run: `cd ~` then `nvm install x` where `x` is whatever version is in the
-   `.nvmrc` file, e.g.: `nvm install 9.11.1`.
+4. Run: `cd ~` then `nvm install x` where `x` is whatever version is in the `.nvmrc` file, e.g.: `nvm install 9.11.1`.
 
 ### Install Yarn
 
@@ -378,24 +362,21 @@ brew install yarn --without-node
 #### Add Global Packages
 
 - `yarn global add git-open`
+- `yarn global add np`
 
 ## Configure Visual Studio Code
 
 - **Sync settings:**
   1. Install the [**Settings Sync**](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) extension.
-  2. <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> → `Sync: Download Settings`
-     → Enter **GitHub Token** and **Gist ID** (get from 1Password).
+  2. <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> → `Sync: Download Settings` → Enter **GitHub Token** and **Gist ID** (get from 1Password).
   3. <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> → `Sync: Advanced Options` → `Sync: Toggle Auto-Upload On Settings Change` (requires window reload).
-  4. <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> → `Sync: Advanced Options` →
-     `Sync: Toggle Show Summary Page on Upload / Download` (requires window reload).
+  4. <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> → `Sync: Advanced Options` → `Sync: Toggle Show Summary Page on Upload / Download` (requires window reload).
 - <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> → `Shell Command: Install 'code' command in PATH`.
 
 ## Configure 1Password
 
-1. Choose **Sync using Dropbox** option then select the **1Password.oppvault**
-   file from **Dropbox → Documents**.
-2. Activate the license by double clicking the license file in: **Software
-   Licences** → **1Password 6** → **attachments**.
+1. Choose **Sync using Dropbox** option then select the **1Password.oppvault** file from **Dropbox → Documents**.
+2. Activate the license by double clicking the license file in: **Software Licences** → **1Password 6** → **attachments**.
 
 ## Install Dashboard Widgets
 
