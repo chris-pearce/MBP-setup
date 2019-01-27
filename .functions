@@ -133,7 +133,7 @@ function tre() {
 # `tre1` is a shorthand for `tree` with descend for 1 level of directories
 # enabled.
 function tre1() {
-	tree -L 1;
+	tree --dirsfirst -L 1;
 }
 
 # Copy with progress

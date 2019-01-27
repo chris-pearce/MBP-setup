@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Print all aliases in the Terminal for quick reference
-alias aliases="cat ~/.aliases"
+alias aliases="bat ~/.aliases"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
@@ -15,9 +15,6 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
-alias pc="cd ~/Projects/compono"
-alias g="git"
-alias h="history"
 
 # Shorter commands for Homebrew
 alias brewd="brew doctor"
@@ -62,6 +59,9 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 # their installed packages
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; sudo gem update --system; sudo gem update'
 
+# Get latest of NPM
+alias npmupdate='npm install npm -g; npm update -g;'
+
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
@@ -100,7 +100,7 @@ alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 # Empty the Trash on all mounted volumes and the main HDD
 # Also, clear Apple’s System Logs to improve shell startup speed
 # Restore the Trash folder to home folder so we can use it again :)
-alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; mkdir ~/.Trash"
+alias emptybin="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl; mkdir ~/.Trash"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"

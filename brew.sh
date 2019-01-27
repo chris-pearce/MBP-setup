@@ -54,6 +54,7 @@ brew cask install spotify
 brew cask install sizeup
 brew cask install licecap
 brew cask install docker
+brew cask install quicklook-json
 
 # Cask versions
 brew tap homebrew/cask-versions

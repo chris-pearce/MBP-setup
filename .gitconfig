@@ -3,23 +3,17 @@
   # View the current working tree status
 	s = status
 
-	# Add files to the index
-	a = add
-
 	# Add files to the index and commit
 	c = commit -a
 
 	# Undo commit
 	cu = reset HEAD~
 
+  # Amend the currently staged files to the latest commit
+	ca = commit -a --amend
+
 	# Switch branches or restore working tree files
 	co = checkout
-
-	# Pull in remote changes for the current repository and all its submodules
-	pull = !"git pull; git submodule foreach git pull origin master"
-
-	# Push to remote branch: X
-	push = push origin
 
 	# List branches
 	b = branch
@@ -52,9 +46,6 @@
 
 	# List aliases
 	aliases = config --get-regexp alias
-
-	# Amend the currently staged files to the latest commit
-	amend = commit -a --amend
 
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
