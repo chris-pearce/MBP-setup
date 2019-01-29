@@ -15,6 +15,7 @@ alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Projects"
+alias g="git"
 
 # Shorter commands for Homebrew
 alias brewd="brew doctor"
