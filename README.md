@@ -357,7 +357,7 @@ _…and go shopping or something 🙂._
 ### Yarn
 
 ```bash
-brew install yarn --without-node
+brew install yarn --ignore-dependencies
 ```
 
 #### Global packages
