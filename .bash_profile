@@ -47,6 +47,7 @@ elif [ -f /etc/bash_completion ]; then
 fi;
 
 # Enable tab completion for `g` by marking it as an alias for `git`
+# If it's not working then try this path: "/usr/local/share/bash-completion/bash_completion"
 if type _git &> /dev/null && [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
   complete -o default -o nospace -F _git g;
 fi;
