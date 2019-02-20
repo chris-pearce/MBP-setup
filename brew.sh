@@ -55,6 +55,7 @@ brew cask install sizeup
 brew cask install licecap
 brew cask install docker
 brew cask install quicklook-json
+brew cask install insomnia
 
 # Cask versions
 brew tap homebrew/cask-versions
