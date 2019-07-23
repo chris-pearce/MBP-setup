@@ -401,8 +401,7 @@ npm whoami
 
 ## 1Password
 
-1. Choose **Sync using Dropbox** option then select the **1Password.oppvault** file from **Dropbox → Documents**.
-2. Activate the license by double clicking the license file in: **Software Licences** → **1Password 6** → **attachments**.
+1. Choose **Sync using Dropbox** option then select the **1Password.oppvault** file from **Dropbox**.
 
 ## Dashboard widgets
 

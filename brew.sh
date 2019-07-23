@@ -59,7 +59,7 @@ brew cask install insomnia
 
 # Cask versions
 brew tap homebrew/cask-versions
-brew cask install 1password6 # have to install version 6 to satisfy license :(
+brew cask install 1password
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts
