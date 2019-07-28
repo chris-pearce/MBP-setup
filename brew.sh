@@ -43,7 +43,6 @@ brew install wifi-password # https://github.com/rauchg/wifi-password
 brew cask install --appdir="~/Applications" iterm2
 brew cask install visual-studio-code
 brew cask install macdown
-brew cask install virtualbox
 brew cask install google-chrome
 brew cask install firefox
 brew cask install slack
@@ -53,13 +52,12 @@ brew cask install sketch
 brew cask install spotify
 brew cask install sizeup
 brew cask install licecap
-brew cask install docker
 brew cask install quicklook-json
-brew cask install insomnia
+brew cask install 1password
+brew cask install grammarly
 
 # Cask versions
 brew tap homebrew/cask-versions
-brew cask install 1password
 
 # Fonts
 # https://github.com/Homebrew/homebrew-cask-fonts
