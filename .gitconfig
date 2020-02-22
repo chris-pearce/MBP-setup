@@ -1,6 +1,6 @@
 [alias]
 
-  # View the current working tree status
+  	# View the current working tree status
 	s = status
 
 	# Add files to the index and commit
@@ -9,7 +9,7 @@
 	# Undo commit
 	cu = reset HEAD~
 
-  # Amend the currently staged files to the latest commit
+  	# Amend the currently staged files to the latest commit
 	ca = commit -a --amend
 
 	# Switch branches or restore working tree files
@@ -24,16 +24,16 @@
 	# Checkout a branch, creating it if necessary
 	bc = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
-  # Delete a branch
-  bd = branch -D
+	# Delete a branch
+	bd = branch -D
 
 	# Delete branches that have already been merged with master
 	bdm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
 	# Clone a repository into a new directory including all submodules
-  cl = clone --recursive
+  	cl = clone --recursive
 
-  # View abbrev SHA, desc, and history graph of the latest 20 commits
+  	# View abbrev SHA, desc, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 	# Show the diff between the latest commit and the current state
@@ -57,8 +57,8 @@
 
 [core]
 
-  # Use VS Code and wait for it to launch
-  editor = code -w
+	# Use VS Code and wait for it to launch
+  	editor = code -w
 
 	# Use custom `.gitignore` and `.gitattributes`
 	excludesfile = ~/.gitignore
@@ -108,18 +108,19 @@
 
 [credential]
 
-  helper = osxkeychain
+  	helper = osxkeychain
 
 [diff]
 
 	# Detect copies as well as renames
 	renames = copies
-  # Use VS Code
-  tool = code
+  	
+	# Use VS Code
+  	tool = code
 
 [difftool]
 
-  prompt = false
+  	prompt = false
 
 [help]
 
@@ -130,13 +131,15 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
-  # Use VS Code
-  tool = code
+  	
+	# Use VS Code
+  	tool = code
 
 [push]
 
 	# https://git-scm.com/docs/git-config#git-config-pushdefault
 	default = simple
+	
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
 

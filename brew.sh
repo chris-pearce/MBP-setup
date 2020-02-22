@@ -11,7 +11,7 @@ brew upgrade --all
 
 # Install Bash 4
 brew install bash
-brew install bash-completion2
+brew install bash-completion@2
 # We installed the new shell, now we have to activate it
 echo "Adding the newly installed shell to the list of allowed shells"
 # Prompts for password
@@ -68,6 +68,7 @@ brew cask install font-oldenburg
 brew cask install font-patua-one
 brew cask install font-lato
 brew cask install font-inter
+brew cask install font-jetbrains-mono
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv qlimagesize webpquicklook suspicious-package
