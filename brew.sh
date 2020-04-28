@@ -28,21 +28,18 @@ brew install homebrew/dupes/screen
 # Install Binaries
 brew install bat
 brew install git
-brew install ack # https://beyondgrep.com
-brew install dark-mode # https://github.com/sindresorhus/dark-mode
 brew install git-extras # https://github.com/tj/git-extras
 brew install lynx # http://lynx.invisible-island.net
 brew install rename # http://plasmasturm.org/code/rename
 brew install tree # http://mama.indstate.edu/users/ice/tree
 brew install pandoc # https://pandoc.org
-brew install z # https://github.com/rupa/z
 brew install tldr # https://tldr.sh
 brew install wifi-password # https://github.com/rauchg/wifi-password
+brew install gifski # https://gif.ski
 
 # Install Casks
 brew cask install --appdir="~/Applications" iterm2
 brew cask install visual-studio-code
-brew cask install macdown
 brew cask install google-chrome
 brew cask install firefox
 brew cask install slack
@@ -51,10 +48,11 @@ brew cask install dropbox
 brew cask install sketch
 brew cask install spotify
 brew cask install sizeup
-brew cask install licecap
 brew cask install quicklook-json
 brew cask install 1password
 brew cask install grammarly
+# monosnap
+# MS Edge
 
 # Cask versions
 brew tap homebrew/cask-versions
