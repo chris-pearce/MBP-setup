@@ -51,8 +51,7 @@ brew cask install sizeup
 brew cask install quicklook-json
 brew cask install 1password
 brew cask install grammarly
-# monosnap
-# MS Edge
+# ADD: MS Edge
 
 # Cask versions
 brew tap homebrew/cask-versions
