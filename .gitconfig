@@ -3,52 +3,13 @@
   	# View the current working tree status
 	s = status
 
-	# Add files to the index and commit
-	c = commit -a
-
-	# Undo commit
-	cu = reset HEAD~
-
-  	# Amend the currently staged files to the latest commit
-	ca = commit -a --amend
-
-	# Switch branches or restore working tree files
-	co = checkout
-
-	# List branches
-	b = branch
-
-	# List which branches haven't been merged into master yet
-	bum = branch --no-merged master
-
-	# Checkout a branch, creating it if necessary
-	bc = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
-
-	# Delete a branch
-	bd = branch -D
-
-	# Delete branches that have already been merged with master
-	bdm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-
-	# Clone a repository into a new directory including all submodules
-  	cl = clone --recursive
-
   	# View abbrev SHA, desc, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
-
-	# Show the diff between the latest commit and the current state
-	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 	branches = branch -a
 	remotes = remote -v
-
-	# List aliases
-	aliases = config --get-regexp alias
-
-	# List contributors with number of commits
-	contributors = shortlog --summary --numbered
 
 [apply]
 
@@ -142,25 +103,3 @@
 	
 	# Make `git push` push relevant annotated tags when pushing branches out.
 	followTags = true
-
-# URL shorthands
-
-[url "git@github.com:"]
-
-	insteadOf = "gh:"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-
-[url "git://github.com/"]
-
-	insteadOf = "github:"
-
-[url "git@gist.github.com:"]
-
-	insteadOf = "gst:"
-	pushInsteadOf = "gist:"
-	pushInsteadOf = "git://gist.github.com/"
-
-[url "git://gist.github.com/"]
-
-	insteadOf = "gist:"

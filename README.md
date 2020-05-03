@@ -55,7 +55,6 @@ _Do the following in order…_
 - [Multiple NPM tokens](#multiple-npm-tokens)
 - [Visual Studio Code](#visual-studio-code)
 - [1Password](#1password)
-- [Dashboard widgets](#dashboard-widgets)
 - [Symlinks](#symlinks)
 - [Lifesavers](#lifesavers)
 - [Credits](#credits)
@@ -324,7 +323,6 @@ _…and go shopping or something 🙂._
 
 ### App Store
 
-- [Unsplash Wallpaper](https://itunes.apple.com/au/app/unsplash-wallpapers/id1284863847?mt=12).
 - [Monosnap](https://itunes.apple.com/au/app/monosnap-screenshot-editor/id540348655?mt=12).
 
 ## Set default app for file types
@@ -402,15 +400,6 @@ npm whoami
 ## 1Password
 
 1. Choose **Sync using Dropbox** option then select the **1Password.oppvault** file from **Dropbox**.
-
-## Dashboard widgets
-
-- **Worldclock:**
-  - Bangkok.
-  - Boston.
-  - London.
-  - Sydney.
-- Unit Converter.
 
 ## Symlinks
 

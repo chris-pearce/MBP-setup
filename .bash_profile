@@ -28,10 +28,6 @@ shopt -s histappend;
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell;
 
-# `z` beats `cd` most of the time
-zpath="$(brew --prefix)/etc/profile.d/z.sh"
-[ -s $zpath ] && source $zpath
-
 # Enable some Bash 4 features when possible:
 # * `autocd`, e.g. `**/qux` will enter `./foo/bar/baz/qux`
 # * Recursive globbing, e.g. `echo **/*.txt`
@@ -52,9 +48,9 @@ fi;
 source "$HOME/.git-completion.bash"
 
 # Enable tab completion for `g` by marking it as an alias for `git`
-if type _git &> /dev/null && [ -f "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
-  complete -o default -o nospace -F _git g;
-fi;
+# if type _git &> /dev/null && [ -f "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]; then
+#   complete -o default -o nospace -F _git g;
+# fi;
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;

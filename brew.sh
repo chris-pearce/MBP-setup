@@ -38,7 +38,7 @@ brew install wifi-password # https://github.com/rauchg/wifi-password
 brew install gifski # https://gif.ski
 
 # Install Casks
-brew cask install --appdir="~/Applications" iterm2
+# https://github.com/Homebrew/homebrew-cask/tree/master/Casks
 brew cask install visual-studio-code
 brew cask install google-chrome
 brew cask install firefox
@@ -51,7 +51,7 @@ brew cask install sizeup
 brew cask install quicklook-json
 brew cask install 1password
 brew cask install grammarly
-# ADD: MS Edge
+brew cask install microsoft-edge
 
 # Cask versions
 brew tap homebrew/cask-versions
